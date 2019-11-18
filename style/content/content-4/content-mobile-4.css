@@ -1,0 +1,12 @@
+@media(max-width: 991px) {
+    .content-4 .slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-4 .slide>div:first-child,
+    .content-4 .slide>div:last-child {
+        width: 100%;
+        padding: 10px 0;
+    }
+}

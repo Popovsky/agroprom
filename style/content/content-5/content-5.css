@@ -1,0 +1,62 @@
+.content-5 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.content-5 .section {
+    padding: 0 15px;
+}
+
+.content-5 .section>div {
+    max-width: 370px;
+}
+
+.content-5 .section>div>img {
+    width: 100%;
+}
+
+.content-5 .section>div>div {
+    border: 2px solid #e6e6e6;
+    border-top: none;
+    padding: 15px;
+    position: relative;
+    top: -4px;
+}
+
+.content-5 .section>div>div>p:first-child {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.content-5 .section>div>div>p:nth-child(2) {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.content-5 .section>div>div>p:last-child {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-5 .down {
+    display: flex;
+    justify-content: center;
+}
+
+.content-5 .down p {
+    font-family: 'Oswald', sans-serif;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.content-5 .down p:first-letter {
+    text-transform: uppercase;
+}
+
+.content-5 .down i {
+    font-size: 24px;
+    color: #1a90ae;
+    margin-top: 50px;
+}

@@ -1,0 +1,18 @@
+@media(max-width: 991px) {
+    .footer .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer .row>div {
+        min-width: auto;
+        padding: 10px 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

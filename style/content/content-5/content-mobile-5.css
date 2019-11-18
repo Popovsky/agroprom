@@ -1,0 +1,14 @@
+@media(max-width: 767px) {
+    .content-5 .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-5 .section {
+        padding: 10px 0;
+    }
+
+    .content-5 .section>div {
+        max-width: none;
+    }
+}

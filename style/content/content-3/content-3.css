@@ -1,0 +1,54 @@
+.content-3 .container>div {
+    display: flex;
+    align-items: center;
+}
+
+.content-3 .container>div:last-child {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.content-3 .left, .content-3 .right {
+    width: 50%;
+}
+
+.content-3 .left {
+    padding-right: 15px;
+}
+
+.content-3 .right {
+    padding-left: 15px;
+}
+
+.content-3 .left>img {
+    width: 100%;
+}
+
+.content-3 .right p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.content-3 .container>div:last-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-3 .container>div:last-child>div {
+    max-width: 160px;
+}
+
+.content-3 .container div:last-child>div {
+    text-align: center;
+}
+
+.content-3 .container div>h2 {
+    color: #253b6d;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.content-3 .container div>p {
+    font-family: 'Open Sans', sans-serif;
+}

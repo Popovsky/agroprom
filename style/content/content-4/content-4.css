@@ -1,0 +1,55 @@
+.content-4 {
+    background: #1f5f8b;
+}
+
+.content-4 .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.content-4 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.content-4 .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #1891ac;
+}
+
+.content-4 .bx-wrapper .bx-pager.bx-default-pager a {
+    margin: 0 10px;
+}
+
+.content-4 p {
+    color: white;
+}
+
+.content-4 .slide {
+    display: flex;
+    align-items: center;
+}
+
+.content-4 .slide>div:first-child p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-4 .slide>div:first-child {
+    width: 70%;
+}
+
+.content-4 .slide>div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.content-4 .slide>div:last-child>img {
+    max-width: 140px;
+}
+
+.content-4 .slide>div:last-child>span {
+}
+
+.content-4 .slide>div:last-child>span>p:first-child {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.content-4 .slide>div:last-child>span>p:last-child {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,23 @@
+.info {
+    background: white;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info .container>div {
+    padding: 15px 0;
+}
+
+.info .container>div>p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info .container>div>p:first-letter {
+    text-transform: uppercase;
+}

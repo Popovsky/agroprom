@@ -1,0 +1,22 @@
+@media(max-width: 1199px) {
+    .navbar .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navbar .container>div {
+        padding: 10px 0;
+    }
+
+    .navbar .container>div>div {
+        padding: 0 5px;
+        min-width: 115px;
+    }
+}

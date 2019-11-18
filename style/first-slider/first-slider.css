@@ -1,0 +1,83 @@
+.first-slider {
+    background: url("../../img/pole.svg");
+    background-size: cover;
+    background-position: center center;
+    padding: 1px 0;
+}
+
+.first-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.first-slider .bx-wrapper .bx-pager.bx-default-pager a.active,
+.first-slider .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #233b69;
+}
+
+.first-slider .bx-wrapper .bx-pager,
+.first-slider .bx-wrapper .bx-controls-auto {
+    bottom: 50px;
+}
+
+.first-slider .slider .slide {
+    position: relative;
+    padding: 95px 0;
+}
+
+.first-slider .slider .slide>div>div {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px 60px;
+    max-width: 580px;
+}
+
+.first-slider .slider .slide div>h2:first-letter,
+.first-slider .slider .slide div>p:first-letter {
+    text-transform: uppercase;
+}
+
+.first-slider .slider .slide div>h2,
+.first-slider .slider .slide div>p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-slider .slider .slide div>h2 {
+    font-size: 40px;
+}
+
+.first-slider .slider .slide div>p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.first-slider .slider .slide div>p>span {
+    padding-left: 20px;
+}
+
+.first-slider .slider .slide div>p>i {
+    color: #9dc41d;
+}
+
+.first-slider .slider .slide div>button {
+    text-transform: uppercase;
+    background: #1f5f8b;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    margin-top: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.first-slider .slider .slide div>p.small {
+    font-size: 14px;
+}
+
+.first-slider .slider .slide div>h2>span {
+    color: #9dc41d;
+}
+
+.first-slider .slider .slide img {
+    max-height: 450px;
+    position: absolute;
+    top: 0;
+    right: -30px;
+}

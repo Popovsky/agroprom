@@ -1,0 +1,44 @@
+.navbar {
+    background: #1f5f8b;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .container>div {
+    padding: 15px;
+    display: flex;
+}
+
+.navbar .container>div:first-child {
+    padding-left: 0;
+}
+
+.navbar .container>div:last-child {
+    padding-right: 0;
+}
+
+.navbar .container>div>div {
+    padding: 0 5px;
+}
+
+.navbar .container>div>div:last-child {
+    max-width: 115px;
+}
+
+.navbar .container>div>div>img {
+    max-height: 65px;
+}
+
+.navbar .container>div>div>p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+.navbar .container>div>div>p:first-letter {
+    text-transform: uppercase;
+}

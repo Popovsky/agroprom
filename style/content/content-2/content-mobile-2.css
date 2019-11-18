@@ -1,0 +1,22 @@
+@media(max-width: 1199px) {
+    .content-2 .section>div>img {
+        top: -40px;
+        left: -20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .content-2 .container>div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-2 .section {
+        width: auto;
+        margin: 50px 0;
+    }
+
+    .content-2 .section:nth-child(2) {
+        margin: 0;
+    }
+}

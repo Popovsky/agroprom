@@ -1,0 +1,22 @@
+@media(max-width: 1199px) {
+    .content-1 .container>div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-1 .section {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    .content-1 .container>div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-1 .section {
+        padding: 10px 0;
+    }
+}

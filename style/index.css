@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+.bx-wrapper {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+    display: none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: white;
+}

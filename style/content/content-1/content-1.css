@@ -1,0 +1,54 @@
+.content-1 .container>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-1 .section {
+    padding: 0 15px;
+    width: 25%;
+}
+
+.content-1 .section .text {
+    height: 100px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-1 .section>div {
+    border: 1px solid silver;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.content-1 .section p {
+}
+
+.content-1 .section .description {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-1 .section .price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.content-1 .section img {
+    width: 220px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.content-1 .section button {
+    padding: 10px 50px;
+    background: #1891ac;
+    font-family: 'Oswald', sans-serif;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.content-1 .section button:first-letter {
+    text-transform: uppercase;
+}

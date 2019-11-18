@@ -1,0 +1,11 @@
+.under-footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.under-footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
